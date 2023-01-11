@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" log="IE=edge">
+   <meta name="viewport" log="width=device-width, initial-scale=1.0">
+   <title>Login Page</title>
+   <style>
+      body {
+         background-image: url("back.webp");
+         background-size: cover;
+      }
+
+
+   
+
+      .log h1 {
+         text-align: center;
+         margin-bottom: 5vh;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+
+      .log {
+         border-radius: 10px;
+         margin:auto;
+        
+         height: 600px;
+         border: 1px solid black;
+         width: 390px;
+         background-color: white;
+         font-size: 20px;
+
+      }
+
+      .log label {
+         margin: 3vh;
+         display: block;
+         margin-bottom: 1vh;
+         text-align: justify;
+      }
+
+      span {
+         color: red;
+      }
+
+      .log input {
+         border-width: 0px 0px 1px 0px;
+         outline: none;
+         width: 37vh;
+         font-size: 90%;
+         margin-left: 2vh;
+         font-weight: 70;
+         border-color: antiquewhite;
+      }
+
+      .forget {
+     color:blue;
+         margin-right: 1vh;
+         text-align: end;
+      }
+
+      button {
+         padding-right: 149px;
+         padding-left: 149px;
+         border-radius: 10px;
+         margin-left: 10px;
+         font-size: 30px;
+         background-color: aqua;
+      }
+
+      .optional {
+         text-align: center;
+         text-transform: capitalize;
+         margin: auto;
+         border-radius: 10px;
+         margin:5px 0px 10% 0px;
+
+      }
+
+      .img1 {
+         border-radius: 100px;
+         text-align: center;
+         margin-left: 100px;
+         
+      }
+
+      .img2 {
+         border-radius: 100px;
+         text-align: center;
+         padding: 4px;
+         background-color: rgb(214, 16, 49);
+
+      }
+
+      .img3 {
+         border-radius: 100px;
+         text-align: center;
+         padding: 2px;
+         
+      }
+      img:hover{
+         width:60px; 
+      }
+      button:hover{
+         background-color: rgb(129, 9, 241);
+         color:white;
+         border:2px solid red;
+      }
+      
+ 
+      .span {
+         position: absolute;
+         margin-left: 30px;
+         text-align: center;
+      }
+      
+   </style>
+
+</head>
+
+<body>
+
+   <form action=" " method="psot">
+<div class-main>
+   <div class="log">
+      <h1>Login</h1>
+
+      <label foe="name">Username<span>*</span> </label>
+      <input type="text" name="name" id="uname" maxlenght="40" required placeholder="🤵Type user name">
+
+      <label foe="name">🔓Password<span>*</span> </label>
+      <input type="password" name="pass" id="pass" maxlenght="40" required placeholder="🔐type your password">
+
+      <p class="forget"> Forget Password</p>
+
+
+      <button  value="submit" id="click">Login</button>
+
+      <p class="optional">Or sing up using</p>
+      <span>
+         <img class="img1" src="/facebook1.png" width="53">
+         <img class="img2" src="/images/insta.png" width="40">
+         <img class="img3" src="/images/email.png" width="45">
+      </span>
+      <p class="optional">Or sing up using</p>
+
+      <p class="optional">sing up </p>
+   </div>
+</div>
+  </form>
+
+</body>
+
+</html>
